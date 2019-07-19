@@ -1,1 +1,362 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  html{
+    scroll-behavior: smooth;
+    }
+    a:hover,
+    a:active{
+        text-decoration: none !important;
+    }
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color:whitesmoke;
+        line-height: 1.4;
+    }
+  
+  
+  
+  /* ---------------------======================================---------------------------------===================================------------- */
+  
+ 
+ /* #image{
+    background-image: url("./assets/fit4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} */
+
+
+
+
+/* ===================--------------------------==================================------------------------====================------------------ */
+
+
+    #header{
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    
+    }
+    #header h1{
+        font-size: 54px; 
+        line-height: 0.7;
+        color: #fff;
+    }
+    #header p{
+        font-size: 20px;
+        color: #fff;
+    }
+    #header .button{
+        font-size: 17px;
+        color:whitesmoke;
+        border: whitesmoke 1px solid;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 4px;
+    }
+    #header .button:hover{
+        background: whitesmoke;
+        color: black;
+    }
+     #header .button a{
+        text-decoration: none;
+    }
+  
+  /* ==================---------------------------=============================--------------------====================----------------------- */
+  
+  
+  
+      .jumbotron {
+        font-family: 'Times New Roman', Times, serif;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          margin-bottom: 30px;
+          color: inherit;
+          background-color: whitesmoke;
+          }
+  
+          #second{
+          font-family: 'Times New Roman', Times, serif;
+          line-height: 1;
+          text-align: center;
+          color: black;
+          }
+          .btn-primary {
+            font-family: 'Times New Roman', Times, serif;
+            color: #fff;
+            background-color:black;
+            border-color: black;
+        }
+        .btn-primary:hover {
+          color: #fff;
+          background-color:black;
+          border-color: black;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+    }
+  
+  
+  
+  /* -------------------------=============================----------------------------============================---------------- */
+  
+  #services {
+    font-family: 'Times New Roman', Times, serif;
+      background: #fff;
+      background-size: cover;
+      padding: 80px 0 60px 0;
+    }
+    
+    #services .box {
+      padding: 50px 20px;
+      margin-bottom: 50px;
+      text-align: center;
+      border: 1px solid #e6e6e6;
+      height: 200px;
+      position: relative;
+      background: #fafafa;
+    }
+    
+    #services .icon {
+      position: absolute;
+      top: -36px;
+      left: calc(50% - 36px);
+      transition: 0.2s;
+      border-radius: 50%;
+      border: 6px solid #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      width: 72px;
+      height: 72px;
+      background:black;
+    }
+    
+    #services .icon a {
+      display: inline-block;
+    }
+    
+    #services .icon i {
+      color: #fff;
+      font-size: 24px;
+    }
+    
+    #services .box:hover .icon {
+      background: #fff;
+      border: 2px solid black;
+    }
+    
+    #services .box:hover .icon i {
+      color: black;
+    }
+    
+    #services .box:hover .icon a {
+      color: black;
+    }
+    
+    #services .title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+    
+    #services .title a {
+      color: #111;
+    }
+    
+    #services .description {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+  /* --------------------------------------------------------------------------------------------------------- */
+  
+  
+    .services .title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 7px;
+      text-transform: uppercase;
+    }
+    
+    .services .title a {
+      color: #111;
+    }
+    
+    .services .description {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    
+    /* ------------------------------------------------------------------------------------------------------------ */
+  
+    .about {
+      font-family: 'Times New Roman', Times, serif;
+        background: #fff;
+        background-size: cover;
+        padding: 80px 0 60px 0;
+        text-align: center;
+        color: #111;
+      }
+      
+      .about .box {
+        padding: 50px 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        border: 1px solid #e6e6e6;
+        height: 200px;
+        position: relative;
+        background: #fafafa;
+        text-align: center;
+        color: #111;
+      }
+    .about .title {
+      font-weight: 900;
+      font-size: 20px;
+      margin-bottom: 10px;
+      line-height: 4;
+      text-transform: uppercase;
+      text-align: center;
+      color: #111;
+    }
+    
+    .about .title a {
+      color: #111;
+      text-align: center;
+      color: #111;
+    }
+    
+    .about .description {
+      font-size: 20px;
+      line-height: 4;
+      text-align: center;
+      color: #111;
+    }
+  
+  
+    /* ------------------------------------------------------------------------------------------------------------------ */
+     
+    .team{
+      
+      text-align: center;
+    }
+    .team b,
+    .team h2,
+    .team h4{
+     
+      color: black;
+  
+    }
+    .team p{
+      color: black;
+    }
+    .team img{
+      height: 250px;
+      width: 250px;
+      margin-top: 80px;
+    }
+  
+    .team i{
+      height: 30px;
+      width: 30px;
+      padding: 5px;
+      font-size: 17px;
+      border-radius: 50%;
+      background-color:#aBdbBe;
+      color:#fff;
+    }
+    .team a:hover i{
+      background-color: #789963;
+    }
+  
+  
+  /* -------------------------------------------------------------------------------------------------------------------------- */
+  
+    .clients{
+      padding: 50px 0 80px;
+      background-color:whitesmoke;
+      text-align:center;
+      
+    }
+    .clients h2,
+    .clients p{
+      color:black;
+    }
+    .clients img{
+      width: 200px;
+      opacity: 0.6;
+      cursor: pointer;
+      margin: 40px 0;
+      transition: all 500ms ease-in-out;
+    
+    }
+    .clients:hover img{
+      opacity: 1;
+    }
+  
+    /* ---------------------------------------------------------------------------------------------------------------------------------- */
+  
+  
+  
+    .contact{
+      padding: 50px 0 80px;
+      text-align: center;
+    }
+    .contact h2,
+    .contact p{
+      color:black;
+    }
+    .contact p{
+      padding-bottom: 80px;
+  
+    }
+    
+    .contact .input-group{
+      margin-bottom: 25px;
+    }
+    .contact .form-control{
+      border-radius: 0 !important;
+    }
+    .contact span{
+      border-radius: 0 !important;
+    }
+    .contact .btn{
+      border-radius: 0;
+      width: 100%;
+      font-size:15px;
+      background-color: black;
+      color: white;
+    }
+    .contact .btn:hover{
+      background-color:black;
+      color:white;
+    }
+  
+  
+  
+    /* ===================-------------------------------------------------=============================================--------------------- */
+  
+  
+  
+  
+    
+  
+    /* ================================================================================================================ */
+  
+   
