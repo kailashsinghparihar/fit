@@ -53,12 +53,12 @@ export class UsersService {
         .post(`${this.url}/update/${id}`, obj)
         .subscribe(res => console.log('Done'));
     }
-    // commentAdd(name,email,phone,comm)
+    // trainerAdd(name,email,exp,cat)
     // {
-    //   let obj = { name,email,phone,comm};
-    //   this.http.post('localhost:3000/addcomment',obj).subscribe(res => console.log(res));
+    //   let obj = { name,email,exp,cat};
+    //   this.http.post('localhost:3000/addtrainer',obj).subscribe(res => console.log(res));
     // }
-    // commentView(){
-    //   return this.http.get('localhost:3000/viewcomment');
+    // trainerView(){
+    //   return this.http.get('localhost:3000/viewtrainer');
     // }
 }

@@ -1,0 +1,33 @@
+
+
+
+<div id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+      <h2>Upload trainer profile</h2>
+      
+      <div class="col-sm-6 col-md-6">
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon1"></span>
+          <input type="text" class="form-control" [(ngModel)]="name" arfa-describedby="sizing-addon1" placeholder="Full name">
+        </div>
+        <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1"></span>
+            <input type="email" class="form-control" [(ngModel)]="email" arfa-describedby="sizing-addon1" placeholder="Email id">
+          </div>
+          <div class="input-group input-group-lg">
+              <span class="input-group-addon" id="sizing-addon1"></span>
+              <input type="text" class="form-control" [(ngModel)]="exp" arfa-describedby="sizing-addon1" placeholder="Experience">
+            </div>
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1"></span>
+                <input type="text" class="form-control" [(ngModel)]="cat" arfa-describedby="sizing-addon1" placeholder="category">
+              </div>
+      </div>
+      <div class="col-sm-6 col-md-6">
+        
+        <button class="btn btn-lg"  (click)="addData()">Submit your message</button>
+      </div>
+    </div>
+  </div>
+  </div>

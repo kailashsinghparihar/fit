@@ -1,17 +1,17 @@
-#image{
+/* #image{
     background-image: url("../../assets/fit4.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
     
-}
+} */
 
 
 
 
 /* ===================--------------------------==================================------------------------====================------------------ */
 
-
+/* 
     #header{
         background-size: cover;
         background-position: center;
@@ -32,20 +32,92 @@
     #header p{
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
+    } */
+
+
+    #hero {
+    
+      height: 100vh;
+      background: url(../../assets/fit4.jpg) top center;
+      background-size: cover;
+      position: relative;
+      background-position: center;
     }
-    #header .button{
+    
+    @media (min-width: 1024px) {
+      #hero {
+        background-attachment: fixed;
+      }
+    }
+    
+    #hero:before {
+      content: "";
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    #hero .hero-container {
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    #hero h1 {
+      margin: 30px 0 10px 0;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 0.1;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    
+    @media (max-width: 768px) {
+      #hero h1 {
+        font-size: 28px;
+        line-height: 1;
+      }
+    }
+    
+    #hero h2 {
+      color: #eee;
+      margin-bottom: 50px;
+      font-size: 24px;
+      line-height: 0.4;
+    }
+    
+    @media (max-width: 768px) {
+      #hero h2 {
+        font-size: 18px;
+        line-height: 1;
+        margin-bottom: 30px;
+      }
+    }
+
+    #hero .button{
         font-size: 17px;
         color:whitesmoke;
         border: whitesmoke 1px solid;
         padding: 10px 20px;
         border-radius: 10px;
         margin-top: 4px;
+        line-height: 1;
     }
-    #header .button:hover{
+    #hero .button:hover{
         background: whitesmoke;
         color: black;
     }
-     #header .button a{
+     #hero .button a{
         text-decoration: none;
     }
 

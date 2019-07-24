@@ -1,0 +1,102 @@
+body
+{
+    margin: 0;
+    /* background-image: url(../../../assets/FAQ-background.png); */
+    background-color: black;
+    background-size: cover;
+    font-family: 'Roboto',sans-serif;
+}
+.search-box
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #0cd0f3;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-box:hover >.search-txt
+{
+    width: 240px;
+    padding:0 6px;
+}
+.search-box:hover >.search-btn
+{
+    background: white;
+}
+
+.search-btn
+{
+    color:#18e8b4;
+    float: right;
+    /* width:40px;
+    height: 40px; */
+    border-radius: 50%;
+    
+    background: #eaedf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(2, 1, 1);
+    font-size: 16px;
+    transition: 0.4s;
+    width:0;
+    
+}
+.content-inner {
+    padding: 15px;
+}
+
+.content {margin-top: 0;line-height: 1.5;}
+
+.content {
+    display: none;
+    background-color: #fff;
+    font-size: 20px;
+    
+}
+
+.acc {
+    border-bottom: 1px solid #fff;
+    font-family: 'osweld' sans-serif;
+}
+
+.acc h3 {     font-size: 25px;
+     padding: 15px;
+    margin: 0;
+    cursor: pointer;    
+    font-family: 'osweld' sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: 25px;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'osweld'sans-serif;
+    font-family: 'osweld';
+    letter-spacing: 2px;
+    position: relative;
+}
+.acc h3:after {
+    content: '+';
+    position: absolute;
+    right:80px;
+    font-size: 40px;
+    
+    
+}
+
+.acc.active  h3:after{
+    content:'-';
+}

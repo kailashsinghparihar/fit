@@ -1,0 +1,38 @@
+.contact{
+    padding: 50px 0 80px;
+    text-align: center;
+  }
+  .contact h2,
+  .contact p{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .contact p{
+    padding-bottom: 80px;
+    line-height: 0.5;
+
+  }
+  .contact h2{
+    margin: 20px 0 20px;
+  }
+  .contact .input-group{
+    margin-bottom: 25px;
+  }
+  .contact .form-control{
+    border-radius: 0 !important;
+  }
+  .contact span{
+    border-radius: 0 !important;
+  }
+  .contact .btn{
+    border-radius: 0;
+    width: 100%;
+    font-size:15px;
+   background-color: whitesmoke;
+    color: black;
+  }
+  .contact .btn:hover{
+    background-color:black;
+    color:white;
+  }

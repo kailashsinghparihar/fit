@@ -17,6 +17,12 @@ import{FormsModule} from '@angular/forms';
 import{HttpClientModule} from '@angular/common/http';
 import { ViewComponent } from './view/view.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { ImportanceComponent } from './importance/importance.component';
+import { UrtrainerComponent } from './urtrainer/urtrainer.component';
+import { DietComponent } from './diet/diet.component';
+import { WorkoutComponent } from './workout/workout.component';
+import { DeskComponent } from './desk/desk.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { ContactusComponent } from './contactus/contactus.component';
     TwowaybindingComponent,
     
     ViewComponent,
-    ContactusComponent
+    ContactusComponent,
+    ImportanceComponent,
+    UrtrainerComponent,
+    DietComponent,
+    WorkoutComponent,
+    DeskComponent,
+    SignupComponent
    
     
   ],
