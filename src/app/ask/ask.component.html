@@ -24,8 +24,8 @@
         <br>
         <div class="container">
             <div class="acc">
-                <h3 style="color: aliceblue">QUESTION 1: What Is Fitness?</h3>
-                <div class="content">
+                <h3 style="color: aliceblue">QUESTION 1: What Is Fitness? <button class="revealContent" (click)="toggleContent1()">Toggle</button></h3>
+                <div class="content" *ngIf="content1">
                     <div class="content-inner">
                         <p style="color: orange">fitness is defined as the state of being physically fit and healthy. ... 
                             "Fitness" is a broad term that means something different to each person,
@@ -36,8 +36,8 @@
             </div>
 
             <div class="acc">
-                    <h3 style="color: aliceblue"> QUESTION 2: What Do You Mean By BodyBuilding ?</h3>
-                    <div class="content">
+                    <h3 style="color: aliceblue"> QUESTION 2: What Do You Mean By BodyBuilding ?<button class="revealContent" (click)="toggleContent2()">Toggle</button></h3>
+                    <div class="content" *ngIf="content2">
                         <div class="content-inner">
                             <p style="color: orange;">Bodybuilding is the use of progressive resistance exercise to control and develop one's musculature for aesthetic purposes.
                                  An individual who engages in this activity is referred to as a bodybuilder.

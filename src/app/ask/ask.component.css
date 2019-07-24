@@ -61,7 +61,7 @@ body
 .content {margin-top: 0;line-height: 1.5;}
 
 .content {
-    display: none;
+    /* display: none; */
     background-color: #fff;
     font-size: 20px;
     
@@ -88,15 +88,18 @@ body
     letter-spacing: 2px;
     position: relative;
 }
-.acc h3:after {
+/* .acc h3:after {
     content: '+';
     position: absolute;
     right:80px;
     font-size: 40px;
     
     
-}
-
-.acc.active  h3:after{
-    content:'-';
+} */
+.revealContent{
+    color:black;
+    position: absolute;
+    right:80px;
+    font-size: 21px;
+    padding: 5px;
 }
