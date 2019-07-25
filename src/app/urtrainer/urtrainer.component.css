@@ -1,9 +1,14 @@
 .card{
-    background-color:orange;
+    
+    float: left;
+    width:200px;
 }
 
 .card img{
-    height:200px;
-    width:180px;
+    height:100px;
+    width:200px;
 
+    /* display: flex; */
+    /* float:left; */
+    /* margin-left:100px; */
 }

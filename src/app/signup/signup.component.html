@@ -1,23 +1,31 @@
-<head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    </head>
-        
-        <div class="container text-center">
-         
-      
-          
-          <form id="signup" >
-            <h1>Sign Up</h1>
-                 <input class="form-control" placeholder="Name" required>
-                 <input class="form-control" placeholder="Email" required>
-            <input class="form-control" placeholder="Password" required>
-            <button class="btn btn-danger btn-block">Sign Up </button>
-          </form>
-          
-          
-        </div>
-        
-      
+<div class="container">
+<div class="col-lg-12 offset-lg-3">
+  <form>
+      <div class="form-group">
+          <label for="inputAddress">Name</label>
+          <input type="text" class="form-control" [(ngModel)]="name" name="name"  placeholder="name">
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" [(ngModel)]="email" placeholder="Email" name="email">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" [(ngModel)]="password" placeholder="Password" name="password">
+          </div>
+      </div>
+      <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" [(ngModel)]="address" name="address"  placeholder="Address">
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity" name="city" [(ngModel)]="city"  placeholder="City">
+          </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block" (click)="addData()">Signup</button>
+  </form>
+</div>
+</div>

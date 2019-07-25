@@ -1,25 +1,23 @@
 
-<!-- <div class="row" >
-    <div class="col-3" *ngFor="let obj of arr">
-        <div class="card">
-                <img class="card-img-top"
-                 src="{{obj.imageLink}}" alt="Card image cap">
+<div class="row" >
+    <div class="container">
+    <div class="card" *ngFor="let obj of arr">
+        <!-- <div class="card"> -->
+                <img class="card-img-top" src="../../assets/Logo-livehealthyindia.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">{{obj.name}}</h5>
-                    <p class="card-text">{{obj.email}}</p>
-                    <p class="card-text">{{obj.exp}}</p>
-                    <p class="card-text">{{obj.cat}}</p>
-                    <a href="#" class="btn btn-primary">
-                        {{obj.address}}</a>
- 
-         <button type="submit"
-         [routerLink]="['/update',obj._id]">Update</button>
-                </div>
+                    <h5 class="card-title">Name: {{obj.name}}</h5>
+                    <p class="card-text">Email: {{obj.email}}</p>
+                    <p class="card-text">Experience: {{obj.exp}}</p>
+                    <p class="card-text">Category: {{obj.cat}}</p>
+                    <!-- <a href="#" class="btn btn-primary"> {{obj.address}}</a> -->
+         <button type="submit" [routerLink]="['/update',obj._id]">Update</button>
+                <!-- </div> -->
             </div>
         </div>
-    </div> -->
+    </div> 
+  </div>
    
-<div class="row">
+ <!-- <div class="row">
     <div class="container">
     <div class="card col-lg-3" style="width: 18rem;">
       <img class="card-img-top" src="../../assets/3mondiet.jpg" alt="Card image cap">
@@ -48,4 +46,4 @@
       </div>
     </div>
   </div>
-</div>
+</div>  -->

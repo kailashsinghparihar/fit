@@ -13,6 +13,8 @@ import { WorkoutComponent } from './workout/workout.component';
 import { ViewComponent } from './view/view.component';
 import { DeskComponent } from './desk/desk.component';
 import { SignupComponent } from './signup/signup.component';
+import { SigndataComponent } from './signdata/signdata.component';
+
 
 
 const routes: Routes = [
@@ -30,6 +32,7 @@ const routes: Routes = [
 {path:"view",component:ViewComponent},
 {path:"desk",component:DeskComponent},
 {path:"signup",component:SignupComponent},
+{path:"signdata",component:SigndataComponent},
 ];
 
 @NgModule({

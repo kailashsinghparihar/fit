@@ -23,6 +23,7 @@ import { DietComponent } from './diet/diet.component';
 import { WorkoutComponent } from './workout/workout.component';
 import { DeskComponent } from './desk/desk.component';
 import { SignupComponent } from './signup/signup.component';
+import { SigndataComponent } from './signdata/signdata.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { SignupComponent } from './signup/signup.component';
     DietComponent,
     WorkoutComponent,
     DeskComponent,
-    SignupComponent
+    SignupComponent,
+    SigndataComponent
    
     
   ],

@@ -1,10 +1,9 @@
 body
 {
     margin: 0;
-    /* background-image: url(../../../assets/FAQ-background.png); */
     background-color: black;
     background-size: cover;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .search-box
 {
@@ -25,7 +24,7 @@ body
 }
 .search-box:hover >.search-btn
 {
-    background: white;
+    background:black;
 }
 
 .search-btn
@@ -62,31 +61,30 @@ body
 
 .content {
     /* display: none; */
-    background-color: #fff;
+    background-color:black;
     font-size: 20px;
     
 }
 
 .acc {
     border-bottom: 1px solid #fff;
-    font-family: 'osweld' sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.acc h3 {     font-size: 25px;
+.acc h3 {     font-size: 17px;
      padding: 15px;
     margin: 0;
     cursor: pointer;    
-    font-family: 'osweld' sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 2px;
     position: relative;
     font-size: 25px;
     padding: 15px;
-    margin: 0;
-    cursor: pointer;
-    font-family: 'osweld'sans-serif;
-    font-family: 'osweld';
+  
+ 
+   
     letter-spacing: 2px;
-    position: relative;
+    
 }
 /* .acc h3:after {
     content: '+';
@@ -100,6 +98,6 @@ body
     color:black;
     position: absolute;
     right:80px;
-    font-size: 21px;
+    font-size: 14px;
     padding: 5px;
 }
