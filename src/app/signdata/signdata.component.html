@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="col-lg-4">
+        <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Password</th>
+                <th scope="col">Address</th>
+                <th scope="col">City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor=" let obj of arr">
+                <!-- <th scope="row">1</th> -->
+                <td>{{obj.name}}</td>
+                <td>{{obj.email}}</td>
+                <td>{{obj.password}}</td>
+                <td>{{obj.address}}</td>
+                <td>{{obj.city}}</td>
+                <td><button type="submit" [routerLink]="['/update',obj._id]">Update</button></td>
+                <td><button type="submit" (click)="delData(obj._id)">Delete</button></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    </div>
